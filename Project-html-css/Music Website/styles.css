@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-size: 20px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 90px;
+    background-color: rgb(80, 80, 217);
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.navList{
+    display: flex;
+    gap: 22px;
+    color: white;
+}
+
+.hero_section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/hero_image\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text_box{
+    /* width: 50%; */
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    padding: 100px;
+    color: white;
+}
+
+.text_box h1{
+    font-size: 65px;
+    margin: 20px 0;
+}
+
+.text_box .para1{
+    margin: 20px  0;
+}
+
+.text_box .para2{
+    margin: 4px 0;
+}
+

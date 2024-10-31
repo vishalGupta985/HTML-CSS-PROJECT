@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(137, 43, 226, 0.585);
+    position: relative;
+}
+
+.container{
+    width: 55vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border: 10px solid white;
+    border-radius: 8px;
+    overflow-x: hidden;
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    animation: slider 16s infinite;
+}
+
+.card img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+@keyframes slider {
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}

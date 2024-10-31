@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+    background-color: white;
+}
+.header{
+    width: 1200px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0.6rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.company-logo{
+    width: 150px;
+}
+
+
+/* home section */
+
+.home{
+    margin-bottom: 2rem;
+}
+
+.home-content-container{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+.left-home{
+    font-weight: 100;
+    width: 100%;
+}
+
+.right-home{
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.offer-box{
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(53, 134, 53);
+    text-transform: uppercase;
+    color: white;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.03);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-heading{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+#home-para{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#explore-btn{
+    margin-top: 2rem;
+    font-size: 25px;
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 1rem;
+}
+
+#explore-btn:hover{
+    cursor: pointer;
+    background-color: rgb(237, 199, 122);
+}
+
+.home-card-container{
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: auto;
+}
+.card{
+    width: 1100px;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card-image{
+    width: 80px;
+}
+
+.menu{
+    margin: auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-btn{
+    width: 120px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    /* padding: 1rem; */
+}
+
+.menu-heading{
+    font-size: 25px;
+    font-weight: 500;
+    margin: auto;
+}
+
+.menu-all-card{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    z-index: -1;
+}
+
+.menu-card{
+    position: relative;
+}
+
+#card5{
+    margin-left: 0.5rem;
+}
+
+#card6{
+    margin-left: 0.5rem;
+}
+#card7{
+    position: absolute;
+    top: -19rem;
+    margin-left: -0.5rem; 
+}
+
+footer{
+    width: 100%;
+    background-color: blanchedalmond;
+    margin-top: 10rem;
+    padding-top: 2rem;
+    padding-bottom: 8rem;
+    color: black;
+}
+
+.footer-container{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    
+    /* display: grid;
+    grid-template-columns: 90px 90px 90px 90px;
+    gap: 10rem; */
+}
+
+.footer-logo{
+    width: 25px;
+}
+
+.foot{
+    margin-top: 5px;
+}
+ul{
+    list-style: none;
+}
+li{
+    color: black;
+}
+a{
+    text-decoration: none;
+}

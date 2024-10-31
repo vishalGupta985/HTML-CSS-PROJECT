@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+header{
+    width: 100%;
+    max-height: 80px;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: none;
+    box-shadow: 20px 10px 70px 5px rgba(171, 211, 249, 0.834);
+    padding: 1rem 0;
+}
+
+
+
+.navList{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.BrandName{
+    color: white;
+    margin-left: 20px;
+    font-size: 55px;
+}
+.link{
+    margin-right: 20px;
+    font-size: 28px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* main content Start */
+
+
+main{
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: auto;
+}
+.contentBox{
+    width: 100%;
+    background-color: rgba(171, 159, 159, 0.284); 
+    box-shadow: 0px 30px 60px 40px rgba(80, 77, 77, 0.814);
+    margin: auto;
+}
+section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.leftContent{
+    margin-right: 50px;
+}
+
+.samosa{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 35px;
+}
+
+.ingredient{
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.recipe{
+    margin: 15px;
+    font-size: 25px;
+}
+
+img{
+    height: 400px;
+    /* margin-left: 100px; */
+}
+
+.gulabjamun{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 35px;
+}
+
+#ol{
+    width: 385px;
+}
+
+
+/* Responsive design */
+
+@media (max-width: 1250px) {
+}
+@media (max-width: 1150px) {
+    .BrandName{
+        font-size: 40px;
+    }
+    .link {
+        margin-right: 15px;
+        font-size: 23px;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .BrandName{
+        font-size: 35px;
+    }
+    .link {
+        margin-right: 10px;
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .BrandName{
+        font-size: 35px;
+    }
+    .link {
+        margin-right: 10px;
+        font-size: 18px;
+    }
+}
